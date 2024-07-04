@@ -1,0 +1,50 @@
+body{
+    background: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-WeatherProject{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    height: 1vh;
+    width: 15vw;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button{
+    color: white;
+    background-color: green;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.wrapper{
+    background: rgb(40, 228, 40);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 1px hsla(0, 1%, 26%, 0.5);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.error-display{
+    color: black;
+    font-size: 1rem;
+}
+
+.weatherEmoji{
+    font-size: 40px;
+}
